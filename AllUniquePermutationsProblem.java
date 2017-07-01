@@ -1,9 +1,23 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- * Created by ssinghal on 7/1/17.
- */
+/**Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+        Example :
+        [1,1,2] have the following unique permutations:
+
+        [1,1,2]
+        [1,2,1]
+        [2,1,1]Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+        Example :
+        [1,1,2] have the following unique permutations:
+
+        [1,1,2]
+        [1,2,1]
+        [2,1,1]*/
+
+
 public class AllUniquePermutationsProblem {
 
     private void permuteHelper(ArrayList<Integer> temp, ArrayList<Integer> input,
