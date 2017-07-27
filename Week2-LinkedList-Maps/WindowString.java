@@ -10,7 +10,7 @@
  Note:
  If there is no such window in S that covers all characters in T, return the empty string ''.
  If there are multiple such windows, return the first occurring minimum window ( with minimum start index ).*/
- 
+
 public class Solution {
     class Pair {
         public char c;
